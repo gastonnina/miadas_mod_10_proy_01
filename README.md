@@ -38,12 +38,8 @@ El resultado final trabajado es un **modelo binario**.
 
 La carpeta `data/` contiene los archivos de datos base y auxiliares utilizados en el proyecto:
 
-- `data_set_unbalanced.csv` - Dataset principal creado combinando y procesando dos bases originales. Contiene variables de pacientes y la etiqueta de clasificación, con desequilibrio de clases para simular un caso real y evaluar manejo de imbalance.
-- `base1.csv` (o similar) - Archivo base original 1 usado como entrada para la combinación de datos.
-- `base2.csv` (o similar) - Archivo base original 2 usado como entrada para la combinación de datos.
-- `features.csv` (opcional) - Archivo auxiliar con características transformadas o seleccionadas.
-
-En los notebooks, se carga `data_set_unbalanced.csv` para el modelado y se usan las bases originales para el proceso de limpieza/feature engineering en el EDA.
+- `data_set_unbalanced.csv` - Dataset principal creado combinando y procesando dos bases originales.
+- Otros archivos de datos (si existen) para ejercicios de limpieza, features y análisis.
 
 ## Notas
 
